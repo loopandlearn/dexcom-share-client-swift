@@ -18,7 +18,8 @@ Pod::Spec.new do |spec|
   spec.platform      = :ios, "13"
   spec.source        = { :git => "https://github.com/jonfawcett/dexcom-share-client-swift.git", :tag => "v#{spec.version}" }
 
-  spec.source_files  = "**/*.{h,m,swift}"
+  spec.source_files  = "**/*"
+  spec.exclude_files = "**/*.{plist}"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
