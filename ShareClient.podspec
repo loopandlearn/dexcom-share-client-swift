@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.homepage      = "https://github.com/jonfawcett/dexcom-share-client-swift"
   spec.license       = "MIT"
   spec.author        = "jonfawcett"
-  spec.platform      = { :ios => "10", :watchos => "6.0" }
+  spec.platform      = { :ios => "10", :watchos => "6" }
   spec.source        = { :git => "https://github.com/jonfawcett/dexcom-share-client-swift.git", :tag => "v#{spec.version}" }
 
   spec.source_files  = "**/*"
