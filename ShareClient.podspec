@@ -19,8 +19,9 @@ Pod::Spec.new do |spec|
   spec.watchos.deployment_target = '6.0'
   spec.source        = { :git => "https://github.com/jonfawcett/dexcom-share-client-swift.git", :tag => "v#{spec.version}" }
 
-  spec.source_files  = "**/*"
-  spec.exclude_files = "**/*.{plist}"
+  spec.source_files = "ShareClient/ShareClient.{h,swift}"
+  #spec.source_files  = "**/*"
+  #spec.exclude_files = "**/*.{plist}"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
