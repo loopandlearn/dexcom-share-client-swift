@@ -12,12 +12,12 @@ Pod::Spec.new do |spec|
   spec.version       = "1.2"
   spec.summary       = "Dexcom Client Pod"
   spec.swift_version = "5.0"
-  spec.homepage      = "https://github.com/jonfawcett/dexcom-share-client-swift"
+  spec.homepage      = "https://github.com/loopandlearn/dexcom-share-client-swift"
   spec.license       = "MIT"
   spec.author        = "jonfawcett"
   spec.ios.deployment_target = '10.0'
   spec.watchos.deployment_target = '6.0'
-  spec.source        = { :git => "https://github.com/jonfawcett/dexcom-share-client-swift.git", :tag => "v#{spec.version}" }
+  spec.source        = { :git => "https://github.com/loopandlearn/dexcom-share-client-swift.git", :tag => "v#{spec.version}" }
 
   spec.source_files = "ShareClient/ShareClient.{h,swift}"
   #spec.source_files  = "**/*"
