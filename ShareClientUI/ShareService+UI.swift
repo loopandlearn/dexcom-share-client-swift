@@ -32,8 +32,9 @@ extension ShareService: ServiceAuthenticationUI {
                 options: [
                     (title: LocalizedString("US", comment: "U.S. share server option title"),
                      value: KnownShareServers.US.rawValue),
-                    (title: LocalizedString("Outside US", comment: "Outside US share server option title"),
-                     value: KnownShareServers.NON_US.rawValue)
+                    (title: LocalizedString("APAC", comment: "Japan, Phillipines, Singapore share server option title"), value: KnownShareServers.APAC.rawValue),
+                    (title: LocalizedString("Worldwide", comment: "Outside US and APAC share server option title"),
+                     value: KnownShareServers.Worldwide.rawValue)
 
                 ]
             )
