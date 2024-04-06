@@ -27,16 +27,26 @@ public enum ShareError: Error {
 }
 
 
-public enum KnownShareServers: String {
+public enum KnownShareServers: String, CaseIterable {
     case US="https://share2.dexcom.com"
-    case NON_US="https://shareous1.dexcom.com"
+    case APAC="https://share.dexcom.jp"
+    case Worldwide="https://shareous1.dexcom.com"
 
+    // Application IDs obtained from Dexcom Share iOS app,
+    // including the one covering Japan/APAC region.
+    var dexcomApplicationId: String {
+        switch self {
+            case .US, .Worldwide:
+                "d89443d2-327c-4a6f-89e5-496bbb0317db"
+            case .APAC:
+                "d8665ade-9673-4e27-9ff6-92db4ce13d13"
+        }
+    }
 }
 
 // From the Dexcom Share iOS app, via @bewest and @shanselman:
 // https://github.com/bewest/share2nightscout-bridge
 private let dexcomUserAgent = "Dexcom Share/3.0.2.11 CFNetwork/711.2.23 Darwin/14.0.0"
-private let dexcomApplicationId = "d89443d2-327c-4a6f-89e5-496bbb0317db"
 private let dexcomAuthenticatePath = "/ShareWebServices/Services/General/AuthenticatePublisherAccount"
 private let dexcomLoginByIdPath = "/ShareWebServices/Services/General/LoginPublisherAccountById"
 private let dexcomLatestGlucosePath = "/ShareWebServices/Services/Publisher/ReadPublisherLatestGlucoseValues"
@@ -117,10 +127,14 @@ public class ShareClient {
     }
 
     private func fetchAccountID(_ callback: @escaping (Result<String, ShareError>) -> Void) {
+        guard let applicationId = KnownShareServers(rawValue: shareServer)?.dexcomApplicationId else {
+            return callback(.failure(.fetchError))
+        }
+
         let data = [
             "accountName": username,
             "password": password,
-            "applicationId": dexcomApplicationId
+            "applicationId": applicationId
         ]
 
         guard let url = URL(string: shareServer + dexcomAuthenticatePath) else {
@@ -151,10 +165,14 @@ public class ShareClient {
     }
 
     private func fetchTokenByAccountId(_ accountId: String, callback: @escaping (ShareError?, String?) -> Void) {
+        guard let applicationId = KnownShareServers(rawValue: shareServer)?.dexcomApplicationId else {
+            return callback(ShareError.fetchError, nil)
+        }
+
         let data = [
             "accountId": accountId,
             "password": password,
-            "applicationId": dexcomApplicationId
+            "applicationId": applicationId
         ]
 
         guard let url = URL(string: shareServer + dexcomLoginByIdPath) else {
