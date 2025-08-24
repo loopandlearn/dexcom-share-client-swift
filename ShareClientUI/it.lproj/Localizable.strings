@@ -1,3 +1,6 @@
+/* Japan, Phillipines, Singapore share server option title */
+"APAC" = "APAC";
+
 /* Confirmation message for deleting a CGM */
 "Are you sure you want to delete this CGM?" = "Sei sicuro di voler eliminare questo CGM?";
 
@@ -37,4 +40,7 @@
 
 /* The title of the Dexcom share username credential */
 "Username" = "Nome Utente";
+
+/* Outside US and APAC share server option title */
+"Worldwide" = "In tutto il mondo";
 
