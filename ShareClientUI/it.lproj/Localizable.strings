@@ -24,10 +24,10 @@
 "Latest Reading" = "Ultima lettura";
 
 /* Outside US share server option title */
-"Outside US" = "Fuori USA";
+"Outside US" = "Fuori dagli USA";
 
 /* The title of the Dexcom share password credential */
-"Password" = "Parola d'ordine";
+"Password" = "Password";
 
 /* The title of the Dexcom share server URL credential */
 "Server" = "Server";
@@ -39,7 +39,7 @@
 "US" = "USA";
 
 /* The title of the Dexcom share username credential */
-"Username" = "Nome Utente";
+"Username" = "Nome utente";
 
 /* Outside US and APAC share server option title */
 "Worldwide" = "In tutto il mondo";
