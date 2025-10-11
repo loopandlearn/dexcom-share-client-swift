@@ -4,6 +4,12 @@
     "APAC" : {
       "comment" : "Japan, Phillipines, Singapore share server option title",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "APAC"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11,6 +17,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "APAC"
+          }
+        },
+        "ro" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "APAC"
@@ -396,6 +408,12 @@
     "Date" : {
       "comment" : "Title describing glucose date",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التاريخ"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -777,6 +795,12 @@
     "Latest Reading" : {
       "comment" : "Section title for latest glucose reading",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "آخر قراءة"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1260,6 +1284,12 @@
     "Trend" : {
       "comment" : "Title describing glucose trend",
       "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إتجاه"
+          }
+        },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1623,6 +1653,12 @@
     "Worldwide" : {
       "comment" : "Outside US and APAC share server option title",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weltweit"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1633,6 +1669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verdensomspennende"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "În întreaga lume"
           }
         }
       }
