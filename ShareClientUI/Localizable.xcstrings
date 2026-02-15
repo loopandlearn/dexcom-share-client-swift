@@ -10,6 +10,12 @@
             "value" : "APAC"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asie-Pacifique"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1657,6 +1663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Weltweit"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dans le monde entier"
           }
         },
         "it" : {
