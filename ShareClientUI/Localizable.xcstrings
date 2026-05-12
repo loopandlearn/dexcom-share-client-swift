@@ -212,12 +212,6 @@
             "value" : "לא"
           }
         },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "निरस्त"
-          }
-        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -710,12 +704,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "גלוקוז"
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "शुगर"
           }
         },
         "it" : {
@@ -1330,12 +1318,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "מגמה"
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ट्रेंड"
           }
         },
         "it" : {
