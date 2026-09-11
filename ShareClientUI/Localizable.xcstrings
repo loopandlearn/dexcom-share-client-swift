@@ -10,6 +10,12 @@
             "value" : "APAC"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "APAC"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -55,6 +61,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bist Du sicher, dass Du dieses CGM löschen möchtest?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Are you sure you want to delete this CGM?"
           }
         },
         "es" : {
@@ -188,6 +200,12 @@
             "value" : "Abbrechen"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -313,6 +331,12 @@
             "value" : "Logindaten"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Credentials"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -430,6 +454,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Datum"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date"
           }
         },
         "es" : {
@@ -555,6 +585,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "CGM löschen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete CGM"
           }
         },
         "es" : {
@@ -688,6 +724,12 @@
             "value" : "Blutzucker"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glucose"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -817,6 +859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Letzter Wert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Latest Reading"
           }
         },
         "es" : {
@@ -1064,6 +1112,12 @@
             "value" : "Passwort"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Password"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1178,6 +1232,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server"
+          }
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Server"
@@ -1308,6 +1368,12 @@
             "value" : "Trend"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trend"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1433,6 +1499,12 @@
             "value" : "USA"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "US"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1552,6 +1624,12 @@
             "value" : "Nutzername"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Username"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1663,6 +1741,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Weltweit"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Worldwide"
           }
         },
         "fr" : {
